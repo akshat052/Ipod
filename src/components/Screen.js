@@ -21,7 +21,7 @@ class Screen extends React.Component{
 
 
   render(){
-    const {sideMenu, coverflow, music, games, settings} = this.props.display;
+    const {sideMenu, coverflow, music, games,} = this.props.display;
     const activeItemInMenu = this.props.activeItemInMenu;
 
     // Before component is mounted, set the values of currentScreenDispaly and currentOptionSelected

@@ -5,7 +5,7 @@ import Albums from './Albums';
 
 
 function Music(props) {
-  const {musicMenu, allSongs, artists, albums} = props.display;
+  const {musicMenu, allSongs, artists, } = props.display;
   const activeItemInMenu = props.activeItemInMenu;
     return (
       <div className="display">
